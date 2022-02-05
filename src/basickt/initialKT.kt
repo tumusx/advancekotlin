@@ -1,6 +1,6 @@
+package basickt
+
 class initialKT{}
-
-
 
 fun main() {
     val hello : String = "Hello World"
