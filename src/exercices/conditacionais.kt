@@ -40,8 +40,14 @@ private fun bonusMelhorado(cargo: String): Float? {
     }
 }
 
+private fun configureEvents(numberSum : Int){
+    var resultNumber = numberSum * numberSum
+    print(resultNumber.toInt())
+}
+
 
 fun main() {
+    configureEvents(2)
     println(bonus("Gerente"))
         println(bonusMelhorado("Joao"))
 }
