@@ -30,6 +30,11 @@ class Box<T> {
         println(mutableListExemple)
         mutableListExemple.removeLast()
         mutableListExemple.removeFirst()
+        mutableListExemple.add(1, "Raimundo")
+
+        mutableListExemple.forEach {
+            println(it)
+        }
         println(mutableListExemple)
 
     }
