@@ -7,6 +7,16 @@ internal fun elevator(right: Int, left: Int, call: Int): String{
 
 }
 
+internal fun thread(number: Int){
+  val thread = Thread(
+      Runnable { run {
+              for(returnA in 0..100){
+                  println(returnA) } }
+      })
+    thread.start()
+}
+
 fun main(){
+    thread(2)
     elevator(2, 4, 5)
 }
